@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap';
+  box-sizing: border-box;
+  color: #383A40;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  background-image: linear-gradient(0deg, #ffffff 0%, #B5FFFC 100%);
+}
+
+.todo {
+  width: 100%;
+  max-width: 540px;
+  background-color: #FFFFFF;
+  margin: 100px auto 20px;
+  border-radius: 20px;
+  padding: 20px 30px;
+
+  & h2 {
+    color: #383A40;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.todo-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: #F5F5F5;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  box-shadow: 0 0 0 1px #D7D8D8;
+
+  &:focus {
+    box-shadow: 0 0 2px 2px #383a4038;
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 26px;
+  cursor: pointer;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: #2FA4D9;
+
+  &:hover {
+    background-color: #2C96C7;
+  }
+}
+
+.save-btn {
+  background-color: #2BC29C;
+
+  &:hover {
+    background-color: #27B08E;
+  }
+}
+
+.del-btn {
+  color: #DB3C30;
+  background-color: transparent;
+
+  &:hover {
+    color: #f73628
+  }
+}
+
+ul li {
+  list-style: none;
+  background-color: #F5F5F5;
+  padding: 10px 0px 10px 20px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #E6E6E6;
+  }
+}
+
+.checked {
+  background-color: transparent;
+
+  & span {
+    text-decoration: line-through;
+    color: #383a4093;
+  }
+}

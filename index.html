@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo">
+        <h2>Todo list</h2>
+        <div class="todo-inputs">
+          <input id="input-box" type="text" placeholder="New task..." />
+          <button class="add-btn" onclick="addTask()">Add</button>
+          <button class="save-btn" onclick="saveTasks()">Save</button>
+        </div>
+        <ul id="todo-list">
+        </ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

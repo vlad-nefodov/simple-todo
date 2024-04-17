@@ -1,6 +1,6 @@
 # Simple Todo list
 
-_To use the application, open the file ```"index.html"``` in your web browser._
+_To use application, open the file ```"index.html"``` in your web browser._
 
 ![img](https://github.com/vlad-nefodov/simple-todo/assets/90212122/6f3b4ff2-3ee4-4dc8-a1a5-7a44fbb96045)
 ### Features
@@ -9,7 +9,7 @@ _To use the application, open the file ```"index.html"``` in your web browser._
 - _Delete task_
 - _Save changes_
 
-___Add task___ - to add a new task, enter the task name in the text box and then press the "Add"``` button.
+___Add task___ - to add a new task, enter the task name in the text box and then press the ```"Add"``` button.
 
 ___Complete task___ - click on a task to mark it done. Click on it again to cancel.
 
